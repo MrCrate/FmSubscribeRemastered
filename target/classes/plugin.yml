@@ -1,0 +1,10 @@
+name: FmSubscribeRemastered
+version: '1.14'
+main: ru.feymer.fmsubscribe.FmSubscribe
+api-version: '1.16'
+depend: [ LuckPerms, PlaceholderAPI ]
+commands:
+  fmsubscribe:
+    aliases:
+      - fmsub
+    permission: fmsubscribe.use
